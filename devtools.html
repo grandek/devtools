@@ -1,0 +1,1136 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Java Develop Tools</title>
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="reveal">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+			<section>
+				<section>
+					<h1>Develop Tools</h1>
+					<h2>(Java New Graduated Course)</h2>
+				</section>
+				<section>
+					<h2>Java Develop Tools</h2>
+					<ul>
+						<li class="fragment"><a>Java </a> - Programming language </li>
+						<li class="fragment"><a>Tomcat</a> - Web Server</li>
+						<li class="fragment"><a>Mysql & Toad</a> -  Database and tool for creating and testing PL/SQL code</li>
+						<li class="fragment"><a>Eclipse</a> - Integrated development environment (IDE) </li>
+						<li class="fragment"><a>Maven</a> - Softwate project management</li>
+						
+					</ul>
+				
+				</section>
+		</section>
+				
+				<!--Java Section-->
+				<!--<section data-transition="linear" data-background="#4d7e65" data-background-transition="slide">
+					<h1>Java</h1>
+				</section>
+				-->
+			<section  data-transition="linear" data-background-transition="slide">
+				<!--section data-transition="linear" data-background="#FF6600" data-background-transition="slide"-->
+				<section data-transition="linear" data-background-transition="slide">
+					<h1>Java™ </h1>
+					<h2>(Programming language)</h2>
+				</section>
+				<section>
+					<h2>What is Java?</h2>
+					<ul>
+						<li>Computer programming language.</li>
+						<li>Using English based commands, instead of having to write in numeric codes.</li>
+						<li>Has a set of rules that determine how the instructions are written.</li>
+						<li>Has Compiler and Interpreter. </li>
+						<li>Run on Java Virtual Machine (JVM).</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>What is (JVM)?</h2>
+					<ul>
+						<li>JVM (Java Virtual Machine) is an abstract machine. It is a specification that provides runtime environment in which java bytecode can be executed.</li>
+						<li>JVMs are available for many hardware and software platforms (i.e.JVM is platform dependent)</li>
+						
+					</ul>
+					<p><img width="590" height="120" src="img/jvm1.jpg"></p>
+				</section>
+
+				<section>
+					<h2>Platform dependent?</h2>
+					 <p>Writing codes in one operating system and execute that code on another platform.</p>
+					 <p>"<a>WORA</a>" -  <a>W</a>rite <a>O</a>nce and <a>R</a>un <a>A</a>nywhere</p>
+					 <p><img width="385" height="337" src="img/jvm2.jpg"></p>
+				</section>
+				
+				<section>
+					<h2>Java™ History?</h2>
+					<ul>
+						<li>Java was started as a project called "Oak" by <a>James Gosling</a> at Sun Microsystems in June <a>1991</a>.</li>	
+						<li>It was originally designed for use on digital mobile devices</li>
+						<li><a>Sun Microsystems</a> released the first public implementation as Java 1.0 in <a>1996</a>.</li>
+						<li>Its main focus had shifted to use on the Internet</li>
+						<li>Over the years it has evolved as a successful language for use both on and off the Internet</li>
+						<li>It’s still an extremely popular language with over 6.5million developers worldwide</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Java™ version history</h2>
+					<ul>
+						<li>Major release versions of Java, along with their release dates</li>	
+					</ul>
+<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+JDK 1.0 (January 21, 1996)
+JDK 1.1 (February 19, 1997)
+J2SE 1.2 (December 8, 1998)
+J2SE 1.3 (May 8, 2000)
+J2SE 1.4 (February 6, 2002)
+J2SE 5.0 (September 30, 2004)
+Java SE 6 (December 11, 2006)
+Java SE 7 (July 28, 2011)
+Java SE 8 (March 18, 2014)
+</code></pre>
+			
+				</section>
+				<section>
+					<h2>Java™ Platform?</h2>
+					<ul>
+						<li class="fragment"><a>Java Standard Edition.</a></li>	
+						<li class="fragment"><a>Java Enterprise Edition.</a></li>
+						<li class="fragment"><a>Java Micro Edition.</a></li>
+					</ul>
+				</section>
+				<section>
+					<h2>Why Choose Java?</h2>
+					<ul>
+						<li class="fragment"><a>Easy to Use.</a></li>	
+						<li class="fragment"><a>Reliability.</a></li>
+						<li class="fragment"><a>Secure.</a></li>
+						<li class="fragment"><a>Platform Independent.</a></li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>How to install Java?</h2>
+					<p>
+						Go to link. <a  href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a> Click on Download JDK.
+					</p>
+					<p>Once the download is complete, run the exe to install. </p>
+				</section>
+
+				<section>
+					<h2>How to install Java?(cont.)</h2>
+					<p>
+						Set Environment Variable
+					</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							JAVA_HOME = &lt;JDK installation directory&gt;
+					</code></pre>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							PATH = %JAVA_HOME%\bin;%PATH%
+					</code></pre>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							CLASSPATH = %JAVA_HOME%\lib\tools.jar;
+					</code></pre>
+					<p>
+						Go to command prompt and type javac
+					</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+				C:\Users\vgan>javac
+					Usage: javac &lt;options&gt; <source files>
+					where possible options include:
+					  -g                         Generate all debugging info
+					  -g:none                    Generate no debugging info
+					  -g:{lines,vars,source}     Generate only some debugging info
+					  -nowarn                    Generate no warnings
+					  -verbose                   Output messages about what the compiler is doing
+					  -deprecation               Output source locations where deprecated APIs are used
+					  -classpath &lt;path&gt;          Specify where to find user class files and annotation processors
+					...
+</code></pre>
+				</section>
+
+				<section>
+					<h2>First java program</h2>
+					<p>
+						Create A.java file. 
+					</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							class A {
+ public static void main(String args[]){
+     System.out.println("First Java Program");
+ }
+}
+					</code></pre>
+									<p>
+						 Compile the code using command,  javac A.java
+					</p>
+						<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+				C:\java>javac A.java
+				</code></pre>
+						<p>
+						 Run the code using command, java A
+					</p>
+						<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+				C:\java>java A
+				</code></pre>
+					
+				
+				</section>
+				<section>
+				<h2>Questions?</h2>
+				</section>
+				
+				
+		</section>
+				<!--Tomcat Section-->
+		<section data-transition="linear" data-background-transition="slide">
+		<!--section data-transition="linear" data-background="#DAA520" data-background-transition="slide"-->
+				<section data-transition="linear" data-background-transition="slide">
+					<h1>Tomcat</h1>
+					<h2>(Web Server)</h2>
+				</section>
+				<section>
+				<h2>Application Server for java?</h2>
+				<p class="fragment">Most Popular Application Servers in 2014</p>
+					<ul class="fragment">
+						<li><a>Tomcat 41%</a></li>
+						<li>Jetty 31%</li>
+						<li>JBoss/WildFly 18%</li>
+						<li>WebLogic 6%</li>
+						<li>Glassfish 4%</li>
+						<li>Resin</li>
+						<li>IBM WebSphere</li>
+					</ul>
+				</section>
+				<section>
+				<h2>What is Tomcat?</h2>
+					<ul>
+						<!--li>Java-Base Web Application container which is used to run Servlet and Java Server Pages(JSP) Web application.</li-->
+						<li>It is an open source  web server and servlet container by Apache Softwate Foundation.</li>
+						<li>Implement Java Server Page (JSP) and Java Servlet specifications.</li>
+						<li>Provides a "pure java" web server environment , works on various operating system.</li>
+						<li>Includes tools for confuguration and management.</li>
+					</ul>
+				</section>
+				<section>
+				<h2> Tomcat Versions?</h2>
+					<ul> 
+						<li>Last  stable version 8.0.20</li>
+						<li>The mapping between the specifications and the respective Apache Tomcat versions is:</li>		
+					</ul>
+					 <p><img width="800" height="250" src="img/tomcat-version.jpg"></p>
+				</section>
+
+				<section>
+				<h2>Tomcat Component?</h2>
+					<ul>
+						<li><a>Catalina</a> - Servlet container</li>
+						<li><a>Coyote</a> - HTTP connector</li>
+						<li><a>Jasper</a> - JSP engine</li>
+					</ul>
+				</section>
+				<section>
+				<h2>What is Catalina?</h2>
+					<ul>
+						<li>Tomcat's servlet container</li>
+						<li>Implements servlet and JavaServer Pags(JSP)</li>
+						<li>Realm element represents "database" of usernames, passwords, roles assigned to those users</li>
+					</ul>
+				</section>
+					<section>
+				<h2>What is Coyote</h2>
+					<ul>
+						<li>Tomcat's HTTP Connector component</li>
+						<li>Supports HTTP 1.1 protocal for web server or application container</li>
+						<li>Listens for incoming connections on specific TCP port</li>
+						<li>Forwards the request to Tomcat Engine</li>
+						<li>Execute JSP and servlets when Tomcat Engine send  back a response to the request client</li>
+					</ul>
+				</section>
+				<section>
+				<h2>What is Jasper?</h2>
+					<ul>
+						<li>Tomcat's JSP Engine</li>
+						<li>Parses JSP files to complie them into Java code as servlets</li>
+						<li>The compiled java code can be handled by Catalina</li>
+						<li>Jasper detects changes JSP files and recompiles at Runtime</li>
+					</ul>
+				</section>
+				<section>
+				<h2>Cunfiguration File?</h2>
+					<ul>
+						<li>server.xml</li>
+						<ul>
+							<li>The main configuration file.</li>
+							<li>Change all ports - HTTP(S), Shutdown</li>
+							<li>Specifying JNDI resources in Engine</li>
+							<li>Realm security</li>
+							<li>. . .</li>
+						</ul>						
+			
+						<li>web.xml</li>
+						<ul>
+							<li>Configures servlets and web applications</li>
+						</ul>			
+						<li>tomcat-user.xml</li>
+						<ul>
+							<li>Roles, users, and passwords</li>
+						</ul>	
+						<li>catalina.bat</li>
+						<ul>
+							<li>Specifying JVM parameters and arguments</li>
+						</ul>	
+					</ul>
+				</section>
+				
+				<!--section>
+				<h2>Tomcat High Availability?</h2>
+					<ul>						
+							<li class="fragment">Clustering</li>			
+							<ul>
+									<li class="fragment">Scalability</li>
+									<ul>
+										<li class="fragment">Vertically - increasing computing resources</li>
+										<li class="fragment">Horizontally- increasing the number of servers</li>
+									</ul>
+									<li class="fragment">High Availability</li>
+									<ul>
+										<li class="fragment">Request-level failover</li>
+										<li class="fragment">Session-level failover</li>
+									</ul>
+									<li class="fragment">Load-balancing </li>
+							</ul>
+					</ul>
+				</section>
+				
+				<section>
+				<h2>High-Availability Clustered Infrastructure</h2>
+					<p><img width="460" height="330" src="img/tomcat-load-balance.gif"></p>
+				</section>
+					<section>
+				<h2>High-Availability Clustered Infrastructure</h2>
+					<p><img width="400" height="500" src="img/haci.png"></p>
+				</section-->
+				<section>
+				<h2>How to Start / Stop?</h2>
+					<ul>
+						<li>Running Tomcat</li>
+						<ul>
+							<li>bin/startup.[bat/sh]</li>
+						</ul>						
+			
+						<li>Stopping Tomcat</li>
+						<ul>
+							<li>bin/shutdown.[bat/sh]</li>
+						</ul>						
+					</ul>
+				</section>
+
+				<section>
+				<h2>Deploy Web Application?</h2>
+					<ul>
+						<li>Manual - place the *.war file with in 'webapps' folder </li>
+						<li>Automagic - use the Admin console to deploy the *.war </li>
+						<li>Eclipse - add new server, deploy application onto server</li>
+						
+					</ul>
+				</section>
+
+				<section>
+					<h2>How to install Tomcat</h2>
+					<p>
+						Go to link. <a  href="https://tomcat.apache.org/download-80.cgi">https://tomcat.apache.org/download-80.cgi</a> Click on Download.
+					</p>
+					<p>Once the download is complete, run the exe to install. </p>
+				</section>
+
+				<section>
+				<h2>Tomcat run jsp</h2>
+					<ul>
+						<li>hello.jsp</li>
+
+					</ul>
+												<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+&lt;html&gt;
+&lt;head&gt;&lt;title&gt;html test&lt;/title&gt;&lt;/head&gt;
+&lt;body bgcolor="#fdf5e6"&gt;
+		&lt;h1&gt;Html test&lt;/h1&gt;
+		Hello , this is jsp.
+&lt;/body&gt;
+&lt;/html&gt;
+					</code></pre>
+				</section>
+
+				<section>
+				<h2>Tomcat run servlet</h2>
+					<ul>
+						<li>HelloServlet.java</li>
+					</ul>
+							<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+public class HelloServlet extends HttpServlet {
+  public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    response.setContentType("text/html");
+    PrintWriter out = response.getWriter();
+    String docType =
+      "&lt;!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0 " +
+      "Transitional//EN\"&gt;\n";
+    out.println(docType +
+                "&lt;HTML&gt;\n" +
+                "&lt;HEAD&gt;&lt;TITLE&gt;Hello&lt;/TITLE&gt;&lt;/HEAD&gt;\n" +
+                "&lt;BODY BGCOLOR=\"#FDF5E6\"&gt;\n" +
+                "&lt;H1&gt;Hello , this is servlet&lt;/H1&gt;\n" +
+                "&lt;/BODY&gt;&lt;/HTML&gt;");
+  }
+}
+
+					</code></pre>
+			
+				</section>
+
+								<section>
+				<h2>Tomcat run servlet(cont.)</h2>
+					<ul>
+						<li>Config servlet in web.xml</li>
+					</ul>
+							<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+<servlet>
+	<servlet-name>HelloServlet</servlet-name>
+	<servlet-class>HelloServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+	<servlet-name>HelloServlet</servlet-name>
+	<url-pattern>/HelloServlet</url-pattern>
+</servlet-mapping>
+
+					</code></pre>
+			
+				</section>
+
+				<section>
+				<h2>Setting tomcat user</h2>
+				<p>The available roles are </p>
+					<ul>
+						
+<li><a>manager-gui</a> — Access to the HTML interface. </li>
+<li><a>manager-status</a> — Access to the "Server Status" page only. </li>
+<li><a>manager-script</a> — Access to the tools-friendly plain text interface that is described in this document, and to the "Server Status" page. </li>
+<li><a>manager-jmx</a> — Access to JMX proxy interface and to the "Server Status" page. </li>
+		</ul>
+		
+					
+				</section>
+
+	<section>
+				<h2>Setting tomcat user(cont.)</h2>
+					<ul>
+						<li>Setting tomcat-users.xml </li>
+					</ul>
+							<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+&lt;role rolename="manager-gui"/&gt;
+&lt;role rolename="manager-script"/&gt;
+&lt;role rolename="manager-jmx"/&gt;
+&lt;role rolename="manager-status"/&gt;
+&lt;user username="tomcat" password="tomcat" roles="manager-gui,manager-script,manager-jmx,manager-status"/&gt;
+					</code></pre>
+				
+				</section>
+
+
+				<section>
+				<h2>Questions?</h2>
+				</section>
+				
+		</section>
+
+			<!--Toad Section-->
+		<section  data-transition="linear" data-background-transition="slide">
+		<!--section data-transition="linear" data-background="#3CB371" data-background-transition="slide"-->
+				<section data-transition="linear" data-background-transition="slide">
+					<h1>Mysql & Toad</h1>
+					<h2>(Database and Tool)</h2>
+				</section>
+				
+				<section>
+				<h2>What is Mysql</h2>
+				<ul>
+					<li>Mysql is the most popular open source database system</li>
+					<li> Mysql is a relational databasemanagement system</li>
+					<li>It is a free SQL server database server lisensed with Oracle</li>
+				</ul>
+				</section>
+				<section>
+				<h2>Why Mysql</h2>
+				<ul>
+					<li>Scalability and Flexibility</li>
+					<li>High Performance</li>
+					<li>High Availability</li>
+					<li>Robust Transactional Support</li>
+					<li>Web and Data Warehouse Strengths</li>
+					<li>Strong Data Protection</li>
+					<li> Comprehensive Application Development</li>
+					<li>Management Ease</li>
+					<li>Open Source Freedom and 24 x 7 Support</li>
+					<li>Lowest Total Cost of Ownership</li>
+				</ul>
+				</section>
+			
+				<section>
+				<h2>How to install Mysql</h2>
+				<p>
+						Go to link. <a  href="http://dev.mysql.com/downloads/">http://dev.mysql.com/downloads/</a> Click on Download.
+					</p>
+					<p>Once the download is complete, run the exe to install. </p>
+				
+				</section>
+
+				
+
+				<section>
+				<h2>Connect to mysql with mysql command</h2>
+				<p>mysql command</p>
+				<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+mysql -u &lt;user&gt; -h &lt;host&gt; -p 
+
+					</code></pre>
+					<p>e.g.</p>
+									<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							C:\Users\vgan>mysql -uroot -p
+Enter password: *********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 75
+Server version: 5.1.69-community MySQL Community Server (GPL)
+
+Copyright (c) 2000, 2013, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql>
+					</code></pre>
+			
+				</section>
+
+				<section>
+					<h2>SQL-structured query language</h2>
+					<ul>
+							<li>Sql is now the standard language for relational DBMS</li>
+							<li>It has statements for data definitions, queries and updates</li>
+					</ul>
+					
+				</section>
+
+				<section>
+					<h2>Mysql command</h2>
+					<ul>
+							<li>mysql</li>
+							<li>create</li>
+							<li>alter</li>
+							<li>select</li>
+							<li>insert</li>
+							<li>update</li>
+							<li>delete</li>
+							<li>drop</li>
+							<li>. . .</li>
+					</ul>
+				
+				</section>
+
+				<section>
+					<h2>Sql Basic command</h2>
+					<p>Learning from <a>http://www.w3schools.com/sql/default.asp</a></p>
+				
+				</section>
+
+				<section>
+					<h2>Exercise</h2>
+					<ul>
+						<li>Create Database name "mydb"</li>
+						<li>Create Table "Category"</li>
+						<ul>
+							<li>Id int (5) not null auto_increment</li>
+							<li>name varchar 50 not null"</li>
+						</ul>
+						<li>Create Table "Product"</li>
+						<ul>
+							<li>Id int (5) not null auto_increment</li>
+							<li>name varchar 50 not null"</li>
+							<li>category_id (FK from Category)</li>
+						</ul>
+						<li>Use mysql command insert Sample data to both table.</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>Whai is toad?</h2>
+				<ul>
+					<li>Toad is software used for development and administration and various relational databases</li>
+					<li>Used Structured Query Language(SQL) to communicate with the databases</li>
+					<li>Managed and supported by Quest Software</li>
+				</ul>
+				</section>
+
+				<section>
+				<h2>Toad History?</h2>
+				<ul>
+					<li>Jim McDaniel designed Toad for his own use in the late 1990s</li>
+					<li>He called it <a>T</a>ool for <a>O</a>racle <a>A</a>pplication <a>D</a>evelopers: "<a>TOAD</a>" for short</li>
+					<li> McDaniel made the tool available to others first as shareware and later as freeware, distributing it freely over the Internet</li>
+					<li></li>
+					<li><a>Quest Software,</a>  acquired TOAD in October 1998 and became part of <a>Dell</a> in September 2012</li>
+				</ul>
+				</section>
+
+				<section>
+				<h2>Support Database?</h2>
+				<ul>
+					<li>Oracle Database</li>
+					<li>Microsoft SQL Server</li>
+					<li>IBM DB2</li>
+					<li>MySQL</li>
+					<li>PostgreSQL</li>
+					<li>. . .</li>
+				</ul>
+				</section>
+
+				<section>
+				<h2>Toad platforms?</h2>
+				<ul>
+					<li>32-bit/64-bit Windows platforms</li>
+					<ul>
+						<li>Microsoft Windows Server</li>
+						<li>Windows XP, Windows Vista</li>
+						<li>Windows 7 and 8</li>
+					</ul>
+					<li>Toad MAC Edition</li>
+				</ul>
+				</section>
+
+				<section>
+					<h2>How to install Toad?</h2>
+					<p>
+						Go to link. <a  href="http://software.dell.com/products/toad-for-mysql/">http://software.dell.com/products/toad-for-mysql/</a> Click on Download Freeware.
+					</p>
+					<p>Once the download is complete, run the exe to install. </p>
+				</section>
+				<section>
+					<h2>Toad Eclipse plugin</h2>
+					<ul>
+						<li>Using the IDE</li>
+						<ul>
+						<li>Help > Eclipse Marketplace... </li>
+						<li>Find "Toad"  and install</li>
+						</ul>
+						<li>Or visit <a>http://marketplace.eclipse.org/content/toad-extension-eclipse</a></li>
+						<ul>
+						<li>Drag install plugin to running eclipse workspace.</li>
+						</ul>
+						
+					</ul>
+				</section>
+				<section>
+					<h2>How to use Toad?</h2>
+					
+				</section>
+
+				<section>
+				<h2>Questions?</h2>
+				</section>
+				
+		</section>
+
+				<!--Eclipse Section-->
+		<section  data-transition="linear" data-background-transition="slide">
+		<!--section data-transition="linear" data-background="#483D8B" data-background-transition="slide"-->
+				<section data-transition="linear" data-background-transition="slide">
+					<h1>Eclipse</h1>
+					<h2>(Integrated development environment)</h2>
+				</section>
+				<section>
+					<h2>BEST JAVA IDES FOR JAVA </h2>
+					<ul>
+						<li>NETBEANS</li>
+						<li><a>ECLIPSE</a></li>
+						<li>INTELLIJ</li>
+						<li>SPRINGSOURCE</li>
+						<li>ANDROID STUDIO</li>
+						<li>JDEVELOPER</li>						
+						<li>BLUEJ</li>
+						<li>JCREATOR</li>
+						<li>JBUILDER</li>
+						<li>. . .</li>
+					</ul>
+				</section>
+				<section>
+				<h2>What is Eclipse?</h2>
+					<ul>
+						<li>An Integrated Development Environment</li>
+						<li>Provides many features to ease Java programming (and others, e.g. C/C++)</li>
+						<ul>
+							<li>Editor</li>
+							<li>Debugger</li>
+							<li>Source Control</li>
+							<li>. . .</li>
+						</ul>
+					</ul>
+				</section>
+				<section>
+				<h2>Eclipse History?</h2>
+					<ul>
+						<li>Version 1.0 - November, 2001</li>
+						<li>. . .</li>
+						<li>Now Version 4.4 (Luna)  June, 2014</li>
+						<li>Plan Version 4.5 (Mars) June, 2015 </li>
+					</ul>
+				</section>
+				<section>
+				<h2>Installing and Running Eclipse?</h2>
+					<ul>
+						<li>Download the latest version at  <a>http://www.eclipse.org/</a></li>
+						<li>Installation is very simple</li>
+						<ul><li>Just unpack the downloaded package</li></ul>
+						<li>Running Eclipse</li>
+						<ul>
+							<li>Then click <a>eclipse.exe</a> (under Windows)</li>
+							<li>Run <a>eclipse</a> (under Linux)</li>
+							<li>Eclipse will start running if all the prerequisites are met</li>
+							
+						</ul>
+						
+					</ul>
+				</section>
+				<section>
+				<h2>Workspace?</h2>
+					<ul>
+						<li>Workspace is where your projects and programs are stored.</li>
+						<li>Usually some directory in the file system.</li>
+						<li>The workspace is set when Eclipse starts.</li>
+					</ul>
+				</section>
+				<section>
+				<h2>Set Encode for work space</h2>
+					<li>Window > Preference</li>
+					<p><img width="515" height="424" src="img/eclipse_encode.png" ></p>
+				</section>
+
+				<section>
+				<h2>Plugin installation?</h2>
+					<ul>
+						<li>Using the IDE</li>
+						<ul>
+						<li>Help > Eclipse Marketplace... </li>
+						</ul>
+						<li>Or visit <a>http://marketplace.eclipse.org/</a></li>
+						<ul>
+						<li>Drag install plugin to running eclipse workspace.</li>
+						</ul>
+						
+					</ul>
+				</section>
+
+				
+				<section>
+				<h2>create project?</h2>
+					<ul>
+						<li>File > new > project</li>
+						<p><img width="400" height="300" src="img/eclipseimport.jpg" alt="Down arrow"></p>
+						<li>Select Existing Projects into Workspace.</li>
+						<li>Find the archive file on your hard disk. Click Open to select it.</li>
+					
+					</ul>
+				</section>
+				<section>
+				<h2>Import existing project?</h2>
+					<ul>
+						<li>File > Import</li>
+						<p><img width="400" height="300" src="img/eclipseimport.jpg" alt="Down arrow"></p>
+						<li>Select Existing Projects into Workspace.</li>
+						<li>Find the archive file on your hard disk. Click Open to select it.</li>
+					
+					</ul>
+				</section>
+
+					<section>
+				<h2>Exercise</h2>
+					<ul>
+						<li>Create Dynamic Web Project contains with</li>
+						<ul>
+							<li>hello.jsp</li>
+							<li>HelloServlet.java</li>
+						</ul>
+						<li>Deploy war file on tomcat</li>
+					</ul>
+				</section>
+
+				<section>
+				<h2>Debug program</h2>
+					<ul>
+						<li>Debug View</li>
+						<p><img width="526" height="170" src="img/ref-debug_view.PNG"></p>
+							<p style="font-size:18px;"><img width="16" height="20" style="background:none; border:none; margin:0;	" src="img/resume_co.png"> Resume (F8)</p>
+							<p style="font-size:18px;"><img width="16" height="20" style="background:none; border:none; margin:0;	"  src="img/terminate_co.png">Terminate (Ctrl + F2)</p>
+							<p style="font-size:18px;"><img width="16" height="20" style="background:none; border:none; margin:0;	"  src="img/stepinto_co.png">Step Into (F5)</p>
+							<p style="font-size:18px;"><img width="16" height="20" style="background:none; border:none; margin:0;	"  src="img/stepover_co.png">Step Over (F6)</p>
+							<p style="font-size:18px;"><img width="16" height="20" style="background:none; border:none; margin:0;	"  src="img/stepreturn_co.png">Step Return (F7)</p>
+							
+					</ul>
+				
+				</section>
+
+				<section>
+				<h2>How to debug program?</h2>
+				</section>
+				
+			
+				<section>
+				<h2>Questions?</h2>
+				</section>
+				
+		</section>
+
+
+				<!--Maven Section-->
+			<section  data-transition="linear" data-background-transition="slide">
+			<!--section data-transition="linear" data-background="#B03060" data-background-transition="slide"-->
+				<section data-transition="linear" data-background-transition="slide">
+					<h1>Maven</h1>
+					<h2>(Softwate project management)</h2>
+				</section>
+				<section>
+					<h2>What is Maven ?</h2>
+					<ul>
+						<li>Standardized build infrastructure</li>
+						<li>Build Tool</li>
+						<li>Dependency Management Tool</li>
+                        <li>Quality Tool</li>
+                        <li>Opensource Apache Project</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Maven Philosophy</h2>
+					<ul>
+						<li>Convention over Configuration</li>
+						<li>Ease the build process</li>
+						<li>Base practises patterns</li>
+                        <li>Consistent build</li>
+					</ul>
+				</section>
+				<section>
+					<h2>POM</h2>
+					<ul>
+						<li>Project Object Model</li>
+						<li>Contains all meta data of project</li>
+						<ul>
+							<li>Name</li>
+							<li>Packageing Type</li>
+							<li>Dependencies</li>
+						</ul>
+                        <li>One POM == One Artifact</li>
+                        <li>POM relationships</li>
+						<ul>
+							<li>Inheritance</li>
+							<li>Aggregation</li>
+						</ul>
+					</ul>
+				</section>
+                <section>
+                    <h2>POM Example</h2>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+				<project xmlns="http://maven.apache.org/POM/4.0.0" 
+				xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.test</groupId>
+	<artifactId>springjpa</artifactId>
+	<packaging>war</packaging>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>springjpa Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency	
+	</dependencies>	
+</project>
+
+					</code></pre>
+                </section>
+                <section>
+                    <h2>Standard Directory Layout</h2>
+					<p>Under this directory  you will notice the following <a>standard project structure</a></p>
+                    <!--p><img width="350" height="250" src="img/m2.png"></p-->
+					<ul>
+						<li>src/main/java</li>
+						<li>src/main/resources</li>
+						<li>src/main/webapp</li>
+						<li>src/test/java</li>
+						<li>src/test/resources</li>
+						<li>target</li>
+					</ul>
+                </section>
+                <section>
+                    <h2>Build Lifecycle</h2>
+                    <ul>
+                        <li>3 different lifecycle
+                            <ul>
+                                <li>default</li>
+                                <li>clean - cleans up artifacts</li>
+                                <li>site - generates site documentation</li>
+                            </ul>
+                        </li>
+                        <li>Invoke with 'mvn' command line</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Phases (lifecycle default)</h2>
+                    <ul>
+                        <li>validate</li>
+                        <li>compile</li>
+                        <li>test</li>
+                        <li>package</li>
+                        <li>integration-test</li>
+                        <li>verify</li>
+                        <li>install</li>
+                        <li>deploy</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Plugin</h2>
+                    <ul>
+                        <li>Set of goals (Mojos)</li>
+                        <li>Plugin Goals can be bound to phases</li>
+                        <li>Depending on packageing type a list of goals are assigned to phases</li>
+                    </ul>
+					<p>Available Plugins <a href="https://maven.apache.org/plugins/index.html">https://maven.apache.org/plugins/index.html</a></p>
+                </section>
+                <section>
+                    <h2>Plugin sample</h2>
+                    <ul>
+                        <li>maven-clean-plugin</li>
+                        <li>maven-compiler-plugin</li>
+                        <li>maven-jar-plugin</li>
+                        <li>maven-war-plugin</li>
+                        <li>maven-surefire-plugin</li>
+                        <li>maven-release-plugin</li>
+                        <li>maven-checkstyle-plugin</li>
+                    </ul>
+					
+                </section>
+
+				<section>
+				<h2>plugin binding phase</h2>
+				<p><img width="780" height="480" src="img/mavenpluginbinding.png"></p>
+				
+				</section>
+                <section>
+                    <h2>Packaging Type</h2>
+                    <ul>
+                        <li>Specifies artifact type</li>
+                        <li>Configure default lifecycle</li>
+                        <li>Available types - jar, war, ear, ...</li>
+                        <li>Default packaging is 'jar'</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Dependencies</h2>
+                    <ul>
+                        <li>Identified by - groupId, artifactId, version, scope</li>
+                        <li>Scope affects dependencies transitivity and build classpath</li>
+                        <li>Available scope - compile, provided, runtime, test</li>
+                        <li>Retrived from public locations</li>
+                        <li>Store on local repo (~/.m2/repository)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Repository Manager</h2>
+                    <ul>
+                        <li>Proxies between your organization and the public Maven repositories</li>
+                        <li>Sonatype Nexus</li>
+                        <li>Maven Archiva</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Maven & IDEs</h2>
+                    <ul>
+                        <li>Supported in all major IDEs</li>
+                        <li>From pom.xml generate IDE specific files
+                            <ul>
+                                <li>mvn eclipse:eclipse</li>
+                                <li>mvn idea:idea</li>
+                            </ul>
+                        </li>
+                        <li>Directly read pom.xml and setup project</li>
+                    </ul>
+                </section>
+                <!--section data-markdown>
+                    ## How do I setup Maven ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    DONE !!
+                    </code></pre>
+                </section-->
+					<section>
+					<h2>How do I setup Maven?</h2>
+					<p>
+						Go to link. <a  href="http://maven.apache.org/download.cgi">http://maven.apache.org/download.cgi</a> Click on Download link.
+					</p>
+					<p>Once the download is complete, run the exe to install. </p>
+				</section>
+				<section>
+					<h2>How do I setup Maven?(cont.)</h2>
+					<p>
+						Set Environment Variable
+					</p>
+					<p>Window</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							M2_HOME = &lt;Maven installation directory&gt;
+					</code></pre>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							PATH = %M2_HOME%\bin;%PATH%
+					</code></pre>
+					<p>Mac</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							export M2_HOME = &lt;Maven installation directory&gt;
+					</code></pre>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+							export %M2_HOME%\bin
+					</code></pre>
+					<p>
+						Go to command prompt and type mvn
+					</p>
+					<pre><code data-trim contenteditable style="font-size: 18px; margin-top: 20px;">
+		C:\Users\vgan>mvn --version
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 20:51:28+0700)
+Maven home: d:\Maven\apache-maven-3.0.5
+Java version: 1.7.0_21, vendor: Oracle Corporation
+Java home: d:\Java\jdk1.7.0_21\jre
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 7", version: "6.1", arch: "amd64", family: "windows"
+</code></pre>
+				</section>
+                <section data-markdown>
+                    ## How do I make my first Maven project ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    mvn archetype:generate -DgroupId={project-packaging} -DartifactId={project-name} -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+                    </code></pre>
+
+			
+                </section>
+                <section data-markdown>
+                    ## How do I compile application sources?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    mvn compile
+                    </code></pre>
+                </section>
+                <section data-markdown>
+                    ## How do I compile my test sources and run my unit tests ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    mvn test
+                    </code></pre>
+                </section>
+                <section data-markdown>
+                    ## How do I create a JAR and install it in my local repository ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    mvn package
+                    mvn install
+                    </code></pre>
+                </section>
+                <section data-markdown>
+                    ## How do I use external dependencies ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    &lt;dependency&gt;
+                        &lt;groupId&gt;com.mycompany.app&lt;/groupId&gt;
+                        &lt;artifactId&gt;my-app&lt;/artifactId&gt;
+                        &lt;version&gt;1.0-SNAPSHOT&lt;/version&gt;
+                        &lt;scope&gt;compile&lt;/scope&gt;
+                    &lt;/dependency&gt;
+                    </code></pre>
+                </section>
+                <section data-markdown>
+                    ## How do I build other types of projects ?
+                    <pre><code contenteditable style="margin-top: 20px;">
+                    mvn archetype:generate \
+                        -DarchetypeGroupId=org.apache.maven.archetypes \
+                        -DarchetypeArtifactId=maven-archetype-webapp \
+                        -DgroupId=com.mycompany.app \
+                        -DartifactId=my-webapp
+
+                    </code></pre>
+                </section>
+
+				<section>
+				<h2>Questions?</h2>
+				</section>
+				
+			</section>
+
+
+	
+
+				<section>
+					<h1>THE END</h1>>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+		</script>
+	</body>
+</html>
